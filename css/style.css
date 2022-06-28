@@ -1,0 +1,371 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('/fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.nav_menu--items {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.nav_menu--list {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.nav_menu--words {
+    text-decoration: none;
+    color: #828282;
+    margin-left: 155px;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.nav_menu--words:nth-child(1) {
+    margin-left: -40px;
+}
+
+.nav_menu--words:hover{
+    color:black;
+    transform: scale(1.2);
+}
+
+.line {
+    width: 960.6px;
+    color: #828282;;
+}
+
+
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.descriprion_text--1 {
+    display: inline-block;
+    margin-left: 500px;
+    
+}
+
+.descriprion_text--2 {
+    display: inline-block;
+}
+
+.descriprion_text--3 {
+    display: inline-block;
+    margin-right: 500px;
+}
+
+.Denis {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.Ux_Text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 96px;
+}
+
+.ru_button {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.eng_button {
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.slash {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ru_button:hover{
+    color: black;
+}
+
+.eng_button:hover{
+    color: black;
+}
+
+.descriprion_text--3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    transform: rotate(-90deg);
+}
+
+.denis_photo1 {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+    height: 506px;
+    left: 0px;
+    top: 768px;
+    background: #F6F6F6;
+}
+
+.about_desc {
+    margin-top: 100px;
+    padding-top: 70px;
+}
+
+.about_h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+}
+
+.about_text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills_h1 {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold';
+    margin-bottom: 70px;
+}
+
+.skills_desc {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 90px;
+}
+
+.skills_photo {
+    width: 89px;
+    height: 88px;
+    margin-right: 167px;
+}
+
+.skills_photo4 {
+    width: 106px;
+    height: 87px;
+}
+
+.photos_desc {
+    position: relative;
+}
+
+.photos_desc_block {
+    position: relative;
+}
+
+.photo_desk1 {
+	position: absolute;
+	transform: translate(-434px, -1px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+
+.photo_desk2 {
+	position: absolute;
+	transform: translate(-169px, -1px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.photo_desk3 {
+	position: absolute;
+	transform: translate(82px, -1px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.photo_desk4 {
+	position: absolute;
+	transform: translate(373px, -1px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.stars {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.stars_4_1 { 
+	position: absolute;
+	transform: translate(-460px, 35px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-size: 28px;
+}
+
+.stars_3 { 
+	position: absolute;
+	transform: translate(-197px, 35px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-size: 28px;
+}
+
+.stars_4_2 {
+    position: absolute;
+	transform: translate(66px, 35px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-size: 28px;
+}
+
+.stars_4_3 {
+    position: absolute;
+	transform: translate(338px, 35px);
+	top: 50%;
+	left: 50%;
+	height: 75%;
+    font-size: 28px;
+}
+
+.portfolio {
+    padding-top: 80px;
+    background-color: #F6F6F6
+}
+
+.portfolio_h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.portfolio_imgs {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.portfolio_desc_1 {     
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 100px;
+    padding-top: 44px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contact_h2 {
+    padding-top: 113px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.contact_desc {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+	transform: translate(-90px, 3970px);
+	top: 50%;
+	left: 50%;
+	height: 100%;
+    display: block;
+    width: 180px;
+    height: 45px;
+    background-image: url("/materials/photos/chip.png");
+    color: #F6F6F6;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.soc_media {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.contact_desc_2 {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 50px;
+}
