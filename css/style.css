@@ -339,21 +339,23 @@
 
 .btn {
     position: absolute;
-	transform: translate(-90px, 3970px);
+	transform: translate(-85px, 4050px);
 	top: 50%;
 	left: 50%;
 	height: 100%;
     display: block;
     width: 180px;
-    height: 45px;
-    background-image: url("/materials/photos/chip.png");
+    height: 35px;
+    background: black;
+    border-radius: 50px;
     color: #F6F6F6;
     background-position: center center;
     background-repeat: no-repeat;
+    text-align: center;
     padding-top: 20px;
     font-family: 'Gilroy-Bold';
     font-size: 18px;
-    line-height: 22px;
+    line-height: 12px;
 }
  
 .soc_media {
